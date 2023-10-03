@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codeforce visual</title>
+    <link rel="stylesheet" href="prostyle.css">
+</head>
+<body>
+    <!--navbar section-->
+    <nav>
+    <h1 id="logo">Codeforces Visualizer</h1>
+
+        <div>
+            <button class="btn">home</button>
+            <button class="btn">compare</button>
+            <button class="btn">Virtual rating</button>
+            <button class="btn">Say something</button>
+        </div>
+    </nav>
+    <hr>
+
+
+    <!-- text input sefction-->
+    <div id="input-form">
+        <form id="form" >
+            <input type="text" id="input-box" name="username"/>
+        </form>
+
+    </div>
+
+   
+    <!-- THIS IS MY CHART -->
+    <div id="verdict-chart">
+
+    </div>
+
+    <div id="langauge-chart">
+
+    </div>
+
+    <div id="ratings-chart">
+
+    </div>
+
+    <!-- <script src="./pro.js"></script> -->
+    <script src="./pro.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        // Load the Visualization API and the corechart package.
+        google.charts.load('current', { 'packages': ['corechart', 'calendar'] });
+    </script>
+</body>
+</html>
