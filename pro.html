@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CF VIZ</title>
+<link rel="stylesheet" href="./prostyle.css" />
+</head>
+
+
+<body>
+<!-- NAV BAR SECTION -->
+<nav>
+<h1 id="logo">CodeForce Viz</h1>
+
+
+<div>
+<button class="btn">HOME</button>
+<button class="btn">COMPARE</button>
+<button class="btn">VIRTUAL RATING CHANGE</button>
+<button class="btn">SAY SOMETHING</button>
+</div>
+</nav>
+
+
+<!-- TEXT INPUT SECTION -->
+<div id="input-form">
+<form id="form">
+<input type="text" id="input-box" name="username" />
+</form>
+</div>
+
+
+<!-- THIS IS MY CHART -->
+
+
+
+
+
+
+<div id="loader">
+<img src="./loader.gif" alt="Loading Tom" height="200px" width="200px">
+</div>
+
+
+<div id="lang-verd">
+
+
+<div id="verdict-chart">
+
+
+</div>
+
+
+<div id="language-chart">
+
+
+</div>
+
+
+</div>
+
+
+<div id="ratingchart-div">
+<div id="ratings-chart">
+</div>
+</div>
+
+
+<div id="contest-stats">
+<table>
+<thead>
+<th>Some Numbers about</th>
+<th id="username"></th>
+</thead>
+<tbody id="contest-stats-table-body">
+
+
+</tbody>
+</table>
+</div>
+
+
+
+
+<div id="heatmap-div">
+<div id="heatmap">
+
+
+</div>
+</div>
+
+
+<script src="./pro.js"></script>
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+// Load the Visualization API and the corechart package.
+google.charts.load('current', { 'packages': ['corechart', 'calendar'] });
+</script>
+
+
+</body>
+
+
+</html>
